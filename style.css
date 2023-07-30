@@ -275,3 +275,88 @@ tbody{
 #td1,#td2,#td3,#td4,#td5,#td6{
    padding:1vw;
 }
+#maya{
+   margin-right: 2vw;
+}
+#shlomo{
+   margin-bottom: -39vh;
+   margin-right: -24vw;
+   width: 23vw;
+   height: 38vh;
+}
+#army{
+   margin-bottom: -35vh;
+   width: 23vw;
+   height: 38vh;
+   margin-left:60vw;
+   margin-right: 2vw;
+}
+.חדשות{
+   
+      background-color:#1417AC;
+      margin-right: 50.5vw;
+      margin-top:-58vh;
+      height: 6vh;
+      color: white;
+      font-weight: bold;
+      margin-left: 1vw;
+}
+#news{
+   margin-right: 1vw;
+   
+   display: inline-block;
+}
+#morenews{
+   display: inline-block;
+   direction: ltr;
+   margin-right: 34vw;
+   font-weight: normal;
+}
+#מטושטש{
+   width: 16vw;
+   height: 20vh;
+}
+#natzi{
+   max-width: 14vw;
+   font-weight: bold;
+   margin-left: 4vw;
+   color: black;
+   margin-top: 0vh;
+}
+#lapid{
+   width: 16vw;
+   height: 20vh;
+}
+#lapid1{
+   max-width: 14vw;
+   font-weight: bold;
+   margin-left: 4vw;
+   color: black;
+   margin-bottom: 40vh;
+}
+#sidetext1{
+   color: black;
+   margin-top: -100vh;
+   margin-right: 38vh;
+   
+}
+#sidetext2{
+   color: black;
+   margin-right: 38vh;
+}
+#sidetext3{
+   color: black;
+   margin-right: 38vh;
+}
+#sidetext4{
+   color: black;
+   margin-right: 38vh;
+}
+#sidetext5{
+   color: black;
+   margin-right: 38vh;
+}
+#sidetext1:hover,#sidetext2:hover,#sidetext3:hover,#sidetext4:hover,#sidetext5:hover{
+   color: #1417AC;
+   cursor: pointer;
+}
