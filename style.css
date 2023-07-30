@@ -1,0 +1,277 @@
+body{
+height: auto;
+overflow-x: hidden;
+}
+
+*{
+   font-family: "Narkiss Block Regular";
+   direction: rtl;
+   text-decoration: none;
+}
+a:visited{
+   color: black;
+}
+header img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: auto;
+}
+#homelogo{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 2%;
+
+}
+.rightbar{
+    right: 0px;
+    display: inline-block;
+    display: flex;
+    position: absolute;
+    margin-right: 2%;   
+}
+
+#rightbar1{
+    margin-right: 1vw;
+    margin-top: 1vh;
+    display: inline-block;
+}
+#rightbar2{
+    margin-right: 1vw;
+    margin-top: 1.5vh;
+    display: inline-block;
+ }
+#rightbar3{
+   margin-right:2vw;
+   display: inline-block;
+   margin-top: 1vh;
+ }
+ 
+ span img{
+    display: inline-block;
+ }
+ .leftbar{
+    left: 5px;
+    display: inline-block;
+    display: flex;
+    position: absolute;
+     margin-left: 2vw;
+     
+ }
+ #leftbar1{
+    margin-left: 2vw;
+   border: 2px solid black;
+    border-radius: 13px;
+ }
+ #ynet1{
+margin-top: 1vh;
+ }
+ #leftbar2{
+    margin-left: 1vw;
+ }
+ nav{
+    display: flex;
+    background-color: rgb(222, 26, 26);
+    height: 28px;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: white;
+    justify-content: space-around;
+    object-fit: contain;
+    position: sticky;
+    border:  solid rgb(222, 26, 26);
+    top: 0%;
+    bottom: 0%;
+    border-radius: 20px;
+    z-index: 99;
+    cursor:pointer;
+ }
+ #bold1,#bold2,#bold3,#bold4,#bold5,#bold6,#bold7,#bold8,#bold9,#bold10,#bold11,#bold12,#bold13,#bold14,#bold15,#bold16{
+   font-weight: unset;
+   color: white;
+ }
+ #bold1:hover,#bold2:hover,#bold3:hover,#bold4:hover,#bold5:hover,#bold6:hover,#bold7:hover,#bold8:hover,#bold9:hover,#bold10:hover,#bold11:hover,#bold12:hover,#bold13:hover,#bold14:hover,#bold15:hover,#bold16:hover{
+   font-weight: bold;
+   
+ }
+ .מבזקים{
+    max-width: 90vw;
+    max-height: 20VH;
+    background-color: rgb(245,245,245);
+    display: inline-block;
+    display: flex;
+    position: static;
+    align-items: center;
+    margin-top: 2%;
+    margin-right: 2%;
+    justify-content:space-between;
+    width: 100vw;
+    height: 100vh; 
+    cursor: default;
+ }
+ .margin1,.margin2,.margin3,.margin4,.margin4,.margin5,.margin6,.margin7,.margin8{
+   margin-right: 2vw;
+ }
+#hover1,#hover2,#hover3,#hover4,#hover5,#hover6,#hover7,#hover8{
+   color:rgb(0, 0, 0);
+}
+#hover1:hover,#hover2:hover,#hover3:hover,#hover4:hover,#hover5:hover,#hover6:hover,#hover7:hover,#hover8:hover{
+color: rgb(0, 0, 255);
+
+ }
+ .headline{
+    margin-top: 0vh;
+    margin-right: 6vh;
+    display: inline-block;
+    position: relative;
+    top: 10vh;
+ }
+ .headline2{
+    margin-right: 34vw;
+    display: inline-block;
+    position:static;
+    margin-top: -48vh;
+    width: auto;
+    height: auto; 
+ }
+ .positiondiv{
+    position: relative;
+    display: inline-block;
+    max-width: 75vw;
+    max-height: 20vh;
+    width: 100vw;
+    height: 100vh;
+    cursor: pointer;
+ }
+ #tadiran{
+margin-top: 5vh;
+margin-right: 2%;
+position: relative;
+width: 23.5vw;
+height: 88vh;
+ }
+ #yediot{
+    margin-bottom: 50%;
+    position: absolute;
+    margin-top: 5vh;
+    margin-right: 2vh;
+    width: 23.5vw;
+    height: 43vh;
+ }
+ #ad2{
+    margin-bottom: 50%;
+    position: absolute;
+    margin-top: 50vh;
+    margin-right: 2vh;
+    width: 23.5vw;
+    height: 43vh;
+ }
+ #bibi{
+    margin-right: 25vw;
+    margin-top: 5vh;
+    margin-bottom: 50%;
+    position: absolute;
+    width: 16vw;
+    
+ }
+ #putin{
+    margin-right: 25vw;
+    margin-top:27vh;
+    margin-bottom: 25%;
+    position: absolute;
+    width: 16vw;
+ }
+ #bat{
+   margin-right: 25vw;
+    margin-top:50vh;
+    margin-bottom: 25%;
+    position: absolute;
+    width: 16vw;
+}
+#run{
+   margin-right: 25vw;
+    margin-top:73vh;
+    margin-bottom: 25%;
+    position: absolute;
+    width: 16vw;
+}
+ #text{
+   background-color: rgb(222, 26, 26);
+   color: #ffffff;
+   height: 20.5vh;
+   margin-right: 66.5vw;
+   margin-top: -89vh;
+   width: 30vw;
+   font-size: 13px;
+   cursor: default;
+}
+#text2{
+   background-color: #1417AC;
+   color: #ffffff;
+   height: 20.5vh;
+   margin-right: 66.5vw;
+   margin-top: -1vh;
+   width: 30vw;
+   font-size: 13px;
+   cursor: default;
+}
+#text3{
+   background-color: rgb(222, 26, 26);
+   color: #ffffff;
+   height: 20.5vh;
+   margin-right: 66.5vw;
+   margin-top: 2.5vh;
+   width: 30vw;
+   font-size: 13px;
+   cursor: default;
+}
+#text4{
+   background-color: #000066;
+   color: #ffffff;
+   height: 20.5vh;
+   margin-right: 66.5vw;
+   margin-top:2.5vh;
+   width: 30vw;
+   font-size: 13px;
+   cursor: default;
+}
+.הכיחם{
+   background-color:#1417AC;
+   margin-right: 2vw;
+   width: 48vw ;
+   height: 6vh;
+   color: white;
+   font-weight: bold;
+}
+#hi{
+   margin-right: 1vw;
+   padding: 10px;
+}
+.עודכותרות{
+   background-color:#1417AC;
+   margin-right: 50.5vw;
+   margin-top: -9vh;
+   height: 6vh;
+   color: white;
+   font-weight: bold;
+   margin-left: 1vw;
+}
+#hi2{
+   margin-right: 1vw;
+   padding: 10px;
+}
+table{
+   margin-right: 1.8vw;
+}
+
+th{
+   padding: 0.45vw;
+}
+tbody{
+   font-weight: bolder;
+}
+#td1,#td2,#td3,#td4,#td5,#td6{
+   padding:1vw;
+}
