@@ -1,6 +1,7 @@
 body{
-height: auto;
-overflow-x: hidden;
+   margin: 0;
+   height: auto;
+   overflow-x: hidden;
 }
 
 *{
@@ -84,7 +85,6 @@ margin-top: 1vh;
     border:  solid rgb(222, 26, 26);
     top: 0%;
     bottom: 0%;
-    border-radius: 20px;
     z-index: 99;
     cursor:pointer;
  }
@@ -94,7 +94,6 @@ margin-top: 1vh;
  }
  #bold1:hover,#bold2:hover,#bold3:hover,#bold4:hover,#bold5:hover,#bold6:hover,#bold7:hover,#bold8:hover,#bold9:hover,#bold10:hover,#bold11:hover,#bold12:hover,#bold13:hover,#bold14:hover,#bold15:hover,#bold16:hover{
    font-weight: bold;
-   
  }
  .מבזקים{
     max-width: 90vw;
@@ -148,7 +147,7 @@ color: rgb(0, 0, 255);
  #tadiran{
 margin-top: 5vh;
 margin-right: 2%;
-position: relative;
+position:relative;
 width: 23.5vw;
 height: 88vh;
  }
@@ -322,6 +321,7 @@ tbody{
    margin-left: 4vw;
    color: black;
    margin-top: 0vh;
+   cursor: default;
 }
 #lapid{
    width: 16vw;
@@ -333,30 +333,19 @@ tbody{
    margin-left: 4vw;
    color: black;
    margin-bottom: 40vh;
+   cursor:default;
 }
 #sidetext1{
    color: black;
-   margin-top: -100vh;
+   margin-top: -108vh;
    margin-right: 38vh;
    
 }
-#sidetext2{
+#sidetext2,#sidetext3,#sidetext4,#sidetext5,#sidetext6,#sidetext7{
    color: black;
    margin-right: 38vh;
 }
-#sidetext3{
-   color: black;
-   margin-right: 38vh;
-}
-#sidetext4{
-   color: black;
-   margin-right: 38vh;
-}
-#sidetext5{
-   color: black;
-   margin-right: 38vh;
-}
-#sidetext1:hover,#sidetext2:hover,#sidetext3:hover,#sidetext4:hover,#sidetext5:hover{
+#sidetext1:hover,#sidetext2:hover,#sidetext3:hover,#sidetext4:hover,#sidetext5:hover,#sidetext6:hover,#sidetext7:hover{
    color: #1417AC;
    cursor: pointer;
 }
