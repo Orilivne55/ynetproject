@@ -243,6 +243,7 @@ height: 88vh;
    height: 6vh;
    color: white;
    font-weight: bold;
+   cursor: default;
 }
 #hi{
    margin-right: 1vw;
@@ -256,6 +257,7 @@ height: 88vh;
    color: white;
    font-weight: bold;
    margin-left: 1vw;
+   cursor: default;
 }
 #hi2{
    margin-right: 1vw;
@@ -299,6 +301,7 @@ tbody{
       color: white;
       font-weight: bold;
       margin-left: 1vw;
+      cursor: default;
 }
 #news{
    margin-right: 1vw;
@@ -310,6 +313,7 @@ tbody{
    direction: ltr;
    margin-right: 34vw;
    font-weight: normal;
+   cursor: default;
 }
 #מטושטש{
    width: 16vw;
@@ -323,6 +327,9 @@ tbody{
    margin-top: 0vh;
    cursor: default;
 }
+#natzi:hover{
+   color: #1417AC;
+}
 #lapid{
    width: 16vw;
    height: 20vh;
@@ -334,6 +341,9 @@ tbody{
    color: black;
    margin-bottom: 40vh;
    cursor:default;
+}
+#lapid1:hover{
+   color: #1417AC;
 }
 #sidetext1{
    color: black;
@@ -348,4 +358,11 @@ tbody{
 #sidetext1:hover,#sidetext2:hover,#sidetext3:hover,#sidetext4:hover,#sidetext5:hover,#sidetext6:hover,#sidetext7:hover{
    color: #1417AC;
    cursor: pointer;
+}
+#td1,#td2,#td3,#td4,#td5,#td6{
+   color: black;
+   cursor: default;
+}
+#td1:hover,#td2:hover,#td3:hover,#td4:hover,#td5:hover,#td6:hover{
+   color: #1417AC;
 }
